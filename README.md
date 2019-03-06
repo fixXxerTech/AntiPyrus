@@ -1,3 +1,6 @@
+# AntiPyrus-Scanner
+***
+
 # Overview
 
 AntiPyrus Scanner is a antimalware scanner written in python, with support for both python2 and python3.
@@ -16,10 +19,10 @@ was designed to bridge said gap and aid in the creation of a more secure cyber a
 AntiPyrus operates on a fairly simple logic. It reads a python file, crawling through each line in search of set
 key words ands syntax usually used in malware creation, it then;
 
-** Displays the malicious line. **
-** Displays the malicious syntax in the line. ** 
-** Assesses the level of potential threat of the file. **
-** Offers recommended action to take to stay safe. ** 
+** Displays the malicious line. ** <br>
+** Displays the malicious syntax in the line. ** <br>
+** Assesses the level of potential threat of the file. **<br>
+** Offers recommended action to take to stay safe. **<br> 
 
 
 # Usage
@@ -34,53 +37,46 @@ Example:
 
 result:
 
-`AntiPyrus requires arguments [options] to run.
-`
+`AntiPyrus requires arguments [options] to run.`<br>
 
 `usage:  Anti-Pyrus.py [-h] [--verbose] [--version]
-              [--file   | --folder_scan   | --full_scan]
+              [--file   | --folder_scan   | --full_scan]`<br>
+`You can only pass one of the above scan types at once, you can however [optionally],`<br>
+
+`Pass "--verbose" with "--file " for much more detailed scan report.`<br>
+
+`e.g. python Anti-Pyrus.py --file <filename.py> --verbose `<br>
+
+`See the option menu below for detailed help.`<br>
+
+`Overview:`<br>
+`=========`<br>
+
+`AntiPyrus is an Anti Malware Scanner for python file formats, because python runs in memory,` 
+`Antiviruses normally can't spot malicous python code,`<br>
+`AntiPyrus was designed to bridge that security gap, it feaures recursive scanning python files in a specified directory by passing the<br> "--folder_scan <folder_name>",or a particular file by passing "--file <python_file_name>", you can also run a full scan or your entire machine starting from the root drive [ "C:\" on windows ] or "/home" | "/Users" directories on linux and mac respectively.
 `
-`You can only pass one of the above scan types at once, you can however [optionally],
+`NOTE: You can only pass either "--file","--folder_scan" or "--full_scan", You can't combine, just like you'r regular antivirus software allows.`<br>
+`       ======================================<br>
+        || Author: ThefixXxer               ||<br>
+        || Linkdin: Ikenna Alfred Managwu   ||<br>
+        || Follow me on Github: @ThefixXxer ||<br>
+        ======================================<br>
 `
-`Pass "--verbose" with "--file " for much more detailed scan report.
-`
-`e.g. python Anti-Pyrus.py --file <filename.py> --verbose  
-`
-`See the option menu below for detailed help.
-`
-`Overview:
-=========
-`
-`AntiPyrus is an Anti Malware Scanner for python file formats, because python runs in memory, 
-Antiviruses normally can't spot malicous python code,
-`
-`AntiPyrus was designed to bridge that security gap, it feaures recursive scanning python files in a specified directory by passing the "--folder_scan <folder_name>",or a particular file by passing "--file <python_file_name>", you can also run a full scan or your entire machine starting from the root drive [ "C:\" on windows ] or "/home" | "/Users" directories on linux and mac respectively.
-`
-`NOTE: You can only pass either "--file","--folder_scan" or "--full_scan", You can't combine, just like you'r regular antivirus software allows.
-`
-`        ======================================
-        || Author: ThefixXxer               ||
-        || Linkdin: Ikenna Alfred Managwu   ||
-        || Follow me on Github: @ThefixXxer ||
-        ======================================
-`
-`
-optional arguments:
-  -h, --help       show this help message and exit
-  --verbose        --> Determines quantity of information to display about
-                   discovered threats.
-  --version        --> Show AntiPyrus current release version number.
-  --file           --> Set a particular file to scan, if not used, all python
-                   files will be scanned, Usage: python AntiPyrus.py --file
-                   suspicious_py_file.py.
-  --folder_scan    --> Scans all python files in specified folder, Usage:
-                   python AntiPyrus.py --folder_scan /root/parent/. NOTE!!: [
-                   This should not be the path to file, rather a directory!!
-                   ].
-  --full_scan      --> FULL SYSTEM SCAN !!, Scans all python format files from
-                   the root directory for windows or the parent directories on
-                   linux and mac ['C:\' or '/home' or '/Usersspecified folder,
-                   Usage: python AntiPyrus.py --full_scan.
+
+`optional arguments:<br>
+  -h, --help       show this help message and exit<br>
+  --verbose        --> Determines quantity of information to display about discovered threats.<br>
+  --version        --> Show AntiPyrus current release version number.<br>
+  --file           --> Set a particular file to scan, if not used, all python files will be scanned,<br>
+                   Usage: python AntiPyrus.py --file suspicious_py_file.py<br>
+  --folder_scan    --> Scans all python files in specified folder,<br>
+                   Usage: python AntiPyrus.py --folder_scan /root/parent/.<br>
+                   NOTE!!: [ This should not be the path to file, rather a directory!! ].<br>
+  --full_scan      --> FULL SYSTEM SCAN !!, Scans all python format files from the root<br>
+                   directory for windows or the parent directories on linux and mac<br>
+                   ['C:\' or '/home' or '/Users'] respectively,<br>
+                   Usage: python AntiPyrus.py --full_scan.<br>
 `
 
 The above help text shows all options required to run AntiPyrus.
