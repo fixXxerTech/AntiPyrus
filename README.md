@@ -1,10 +1,11 @@
 # AntiPyrus-Scanner
+![Version](https://img.shields.io/badge/AntiPyrus-v1.0-yellowgreen.svg)
+![Python-version](https://img.shields.io/badge/Python--version-2.7%7C3.5%7C3.6%7C3.7-blue.svg)
+![Release](https://img.shields.io/badge/Release-Stable-green.svg)
+![Platforms](https://img.shields.io/badge/Supported%20OS-%20All%20%5BWith%20python%20installed%5D-brightgreen.svg)
+![Licence](https://img.shields.io/badge/Licence-MIT-brightgreen.svg)
+
 ***
-[![Version](https://img.shields.io/badge/AntiPyrus-v1.0-yellowgreen.svg)
-[![Python-version](https://img.shields.io/badge/Python--version-2.7%7C3.5%7C3.6%7C3.7-blue.svg)
-[![Release](https://img.shields.io/badge/Release-Stable-green.svg)
-[![Platforms](https://img.shields.io/badge/Supported%20OS-%20All%20%5BWith%20python%20installed%5D-brightgreen.svg)
-[![Licence](https://img.shields.io/badge/Licence-MIT-brightgreen.svg)
 
 # Overview
 
@@ -66,10 +67,11 @@ AntiPyrus was designed to bridge that security gap, it feaures recursive scannin
 
 "--folder_scan <folder_name>",or a particular file by passing "--file <python_file_name>". 
 
-You can also run a full scan or your``entire machine starting from the root drive [ "C:\" on windows ] or "/home" | "/Users" directories on linux and mac respectively.
+You can also run a full scan or your``entire machine starting from the root drive [ "C:\" on windows ] or "/home" | "/Users" 
+directories on linux and mac respectively.
 
 
-NOTE: You can only pass either "--file","--folder_scan" or "--full_scan", You can't combine, just like you'r regular antivirus software       allows.
+NOTE: You can only pass either "--file","--folder_scan" or "--full_scan", You can't combine, just like you'r regular antivirus software allows.
 
 
         ======================================
