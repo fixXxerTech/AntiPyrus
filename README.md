@@ -63,15 +63,17 @@ Overview:
 
 AntiPyrus is an Anti Malware Scanner for python file formats, because python runs in memory,
 Antiviruses normally can't spot malicous python code,
-AntiPyrus was designed to bridge that security gap, it feaures recursive scanning python files in a specified directory by passing the;
+AntiPyrus was designed to bridge that security gap, it feaures recursive scanning python files in a specified 
+directory by passing the;
 
 "--folder_scan <folder_name>",or a particular file by passing "--file <python_file_name>". 
 
-You can also run a full scan or your``entire machine starting from the root drive [ "C:\" on windows ] or "/home" | "/Users" 
-directories on linux and mac respectively.
+You can also run a full scan or your``entire machine starting from the root drive [ "C:\" on windows ] or 
+"/home" | "/Users" directories on linux and mac respectively.
 
 
-NOTE: You can only pass either "--file","--folder_scan" or "--full_scan", You can't combine, just like you'r regular antivirus software allows.
+NOTE: You can only pass either "--file","--folder_scan" or "--full_scan", You can't combine, just like you'r 
+regular antivirus software allows.
 
 
         ======================================
