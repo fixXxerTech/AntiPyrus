@@ -39,8 +39,8 @@ result:
 
 `AntiPyrus requires arguments [options] to run.`<br>
 
-`usage:  Anti-Pyrus.py [-h] [--verbose] [--version]
-              [--file   | --folder_scan   | --full_scan]`<br>
+`usage:  Anti-Pyrus.py [-h] [--verbose] [--version]`<br>
+`              [--file   | --folder_scan   | --full_scan]`<br>
 `You can only pass one of the above scan types at once, you can however [optionally],`<br>
 
 `Pass "--verbose" with "--file " for much more detailed scan report.`<br>
@@ -54,10 +54,10 @@ result:
 
 `AntiPyrus is an Anti Malware Scanner for python file formats, because python runs in memory,` 
 `Antiviruses normally can't spot malicous python code,`<br>
-`AntiPyrus was designed to bridge that security gap, it feaures recursive scanning python files in a specified directory by passing the` <br>`"--folder_scan <folder_name>",or a particular file by passing "--file <python_file_name>", you can also run a full scan or your`
-<br> `entire machine starting from the root drive [ "C:\" on windows ] or "/home" | "/Users" directories on linux and mac respectively.`<br>
+`AntiPyrus was designed to bridge that security gap, it feaures recursive scanning python files in a specified directory by passing the` <br>`"--folder_scan <folder_name>",or a particular file by passing "--file <python_file_name>", you can also run a full scan or your``entire machine starting from the root drive [ "C:\" on windows ] or "/home" | "/Users" directories on linux and mac respectively.`<br>
 
 `NOTE: You can only pass either "--file","--folder_scan" or "--full_scan", You can't combine, just like you'r regular antivirus software allows.`<br>
+
 `        ======================================`<br>
 `        || Author: ThefixXxer               ||`<br>
 `        || Linkdin: Ikenna Alfred Managwu   ||`<br>
@@ -65,18 +65,18 @@ result:
 `        ======================================`<br>
 
 `optional arguments:`<br>
-`  -h, --help       show this help message and exit`<br>
-`  --verbose        --> Determines quantity of information to display about discovered threats.`<br>
-`  --version        --> Show AntiPyrus current release version number.`<br>
-`  --file           --> Set a particular file to scan, if not used, all python files will be scanned,`<br>
-`                   Usage: python AntiPyrus.py --file suspicious_py_file.py`<br>
-`  --folder_scan    --> Scans all python files in specified folder,`<br>
-`                   Usage: python AntiPyrus.py --folder_scan /root/parent/.`<br>
-`                   NOTE!!: [ This should not be the path to file, rather a directory!! ].`<br>
-`  --full_scan      --> FULL SYSTEM SCAN !!, Scans all python format files from the root`<br>
-`                  directory for windows or the parent directories on linux and mac`<br>
-`                   ['C:\' or '/home' or '/Users'] respectively,`<br>
-`                   Usage: python AntiPyrus.py --full_scan.`<br>
+    `  -h, --help       show this help message and exit`<br>
+    `  --verbose        --> Determines quantity of information to display about discovered threats.`<br>
+    `  --version        --> Show AntiPyrus current release version number.`<br>
+    `  --file           --> Set a particular file to scan, if not used, all python files will be scanned,`<br>
+    `                   Usage: python AntiPyrus.py --file suspicious_py_file.py`<br>
+    `  --folder_scan    --> Scans all python files in specified folder,`<br>
+    `                   Usage: python AntiPyrus.py --folder_scan /root/parent/.`<br>
+    `                   NOTE!!: [ This should not be the path to file, rather a directory!! ].`<br>
+    `  --full_scan      --> FULL SYSTEM SCAN !!, Scans all python format files from the root`<br>
+    `                  directory for windows or the parent directories on linux and mac`<br>
+    `                   ['C:\' or '/home' or '/Users'] respectively,`<br>
+    `                   Usage: python AntiPyrus.py --full_scan.`<br>
 
 
 `The above help text shows all options required to run AntiPyrus.`
@@ -87,4 +87,4 @@ result:
 * **Add a banner** 
 
 ### Perharps
-* ** Add scan parameters for other file types **
+* **Add scan parameters for other file types**
