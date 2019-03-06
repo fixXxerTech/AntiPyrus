@@ -19,10 +19,10 @@ was designed to bridge said gap and aid in the creation of a more secure cyber a
 AntiPyrus operates on a fairly simple logic. It reads a python file, crawling through each line in search of set
 key words ands syntax usually used in malware creation, it then;
 
-** Displays the malicious line. ** <br>
-** Displays the malicious syntax in the line. ** <br>
-** Assesses the level of potential threat of the file. **<br>
-** Offers recommended action to take to stay safe. **<br> 
+* Displays the malicious line. <br>
+* ** Displays the malicious syntax in the line. ** <br>
+* ** Assesses the level of potential threat of the file. **<br>
+* ** Offers recommended action to take to stay safe. **<br> 
 
 
 # Usage
@@ -84,7 +84,7 @@ The above help text shows all options required to run AntiPyrus.
 ***
 
 ## TODO
-** Add a banner ** 
+* ** Add a banner ** 
 
 ### Perharps
-** Add scan parameters for other file types **
+* ** Add scan parameters for other file types **
